@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xmticket.iml" filepath="$PROJECT_DIR$/.idea/modules/xmticket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xmticket_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xmticket_main.iml" group="xmticket" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xmticket_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xmticket_test.iml" group="xmticket" />
+    </modules>
+  </component>
+</project>
