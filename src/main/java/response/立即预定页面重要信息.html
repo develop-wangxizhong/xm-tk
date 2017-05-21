@@ -1,0 +1,829 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta http-equiv="Cache-Control" content="max-age=0" forua="true"/>
+    <meta http-equiv="Cache-Control" content="no-cache" forua="true"/>
+    <meta http-equiv="Cache-Control" content="must-revalidate" forua="true"/>
+    <title>订单确认-大麦网</title>
+    <script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/jquery-1.8.3.min.js"></script>
+    <script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/rem.js"></script>
+    <link rel="stylesheet" href="http://dui.dmcdn.cn/dm_trade_system/msite/css/style.css">
+    <link type="text/css" href="//g.alicdn.com/sd/ncpc/nc.css?t=1491535315537" rel="stylesheet"/>
+    <script type="text/javascript" src="//g.alicdn.com/sd/ncpc/nc.js?t=1491535315537"></script>
+    <script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/aliVerifyCode.js?a034ae62b2b8412ade18"></script>
+    <script type="text/javascript">
+        var timestamp = '85dc022d036981311cd09bc332fe778b';
+        (function () {
+
+            _fmOpt = {
+                bd: true,
+                partner: 'damai',
+                appName: 'damai_web',
+                token: timestamp
+            };
+
+            var cimg = new Image(1, 1);
+            cimg.onload = function () {
+                _fmOpt.imgLoaded = true;
+            };
+            cimg.src = "https://fp.fraudmetrix.cn/fp/clear.png?partnerCode=" + _fmOpt.partner + "&appName=" + _fmOpt.appName + "&tokenId=" + _fmOpt.token;
+            var fp = document.createElement('script');
+            fp.type = 'text/javascript';
+            fp.async = true;
+            fp.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'static.fraudmetrix.cn/fm.js?ver=0.1';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fp, s);
+        })();
+    </script>
+    <!-- start Dplus -->
+    <script type="text/javascript">!function(a,b){if(!b.__SV){var c,d,e,f;window.dplus=b,b._i=[],b.init=function(a,c,d){function g(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]),a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var h=b;for("undefined"!=typeof d?h=b[d]=[]:d="dplus",h.people=h.people||[],h.toString=function(a){var b="dplus";return"dplus"!==d&&(b+="."+d),a||(b+=" (stub)"),b},h.people.toString=function(){return h.toString(1)+".people (stub)"},e="disable track track_links track_forms register unregister get_property identify clear set_config get_config get_distinct_id track_pageview register_once track_with_tag time_event people.set people.unset people.delete_user".split(" "),f=0;f<e.length;f++)g(h,e[f]);b._i.push([a,c,d])},b.__SV=1.1,c=a.createElement("script"),c.type="text/javascript",c.charset="utf-8",c.async=!0,c.src="https://w.cnzz.com/dplus.php?token=7415364c9dab5n09ff68",d=a.getElementsByTagName("script")[0],d.parentNode.insertBefore(c,d)}}(document,window.dplus||[]),dplus.init("7415364c9dab5n09ff68");
+    </script>
+    <!-- end Dplus -->
+    <!-- start Dplus Define -->
+    <script type="text/javascript">!function(a,b){var c,d;window.__dplusDefineCacheQueue=[],b.define=function(){window.__dplusDefineCacheQueue.push(Array.prototype.slice.call(arguments))},c=a.createElement("script"),c.type="text/javascript",c.charset="utf-8",c.async=!0,c.src="https://w.cnzz.com/dplus.define.php",d=a.getElementsByTagName("script")[0],d.parentNode.insertBefore(c,d)}(document,window.dplus);
+    </script>
+    <!-- end Dplus Define -->
+</head>
+<body>
+<div class="g-doc">
+    <div class="g-bd">
+        <!-- 订单确认 start -->
+        <div class="m-confirm">
+            <!-- 支付信息 start -->
+            <div class="box">
+                <div class="m-payinfo">
+                    <div class="hd">
+                        <h2 class="tt">汪峰2017“岁月”巡回演唱会-北京鸟巢站</h2>
+                    </div>
+                    <div class="bd">
+                        <div class="info">
+                            <div class="itm">
+                                <div class="txt">时间：2017.09.09</div>
+                                <div class="txt">场馆：国家体育场</div>
+                            </div>
+                            <div class="itm">
+                                <div class="price">
+                                    <span class="rmb"><strong class="cny">&yen;7680.00</strong>元</span>详情
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 支付信息 end -->
+
+            <!-- 票品列表弹层 start -->
+            <div class="m-layer m-layer-tktlst m-tktlst z-hide">
+                <div class="hd">
+                    <span class="col col-1">序号</span>
+                    <span class="col col-3">座位</span>
+                    <span class="col col-1">数量</span>
+                    <span class="col col-4">价格</span>
+
+                </div>
+                <div class="bd">
+                    <div class="box">
+                        <ul class="lst">
+                            <li class="itm">
+                                <span class="col col-1">1</span>
+                                <span class="col col-3" style="text-align: center">--</span>
+                                <span class="col col-1">6
+          (张)
+          </span>
+                                <span class="col col-4">1280.00元</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ft">
+                    <a class="u-btn u-btn-c2 u-btn-lg product_submit_order" order-data="1" href="javascript:;">提交支付</a>
+                </div>
+            </div>
+            <!-- 票品列表弹层 end -->
+
+            <input class="deliverys_852-7-3-1-9" type="hidden" value="{1:[852],2:[852]}">
+            <input class="payments_852-7-3-1-9" type="hidden" value="{852:[{&quot;groupId&quot;:76,&quot;groupName&quot;:&quot;微信公众号支付&quot;,&quot;paymentPlatform&quot;:1,&quot;useType&quot;:1},{&quot;groupId&quot;:8,&quot;groupName&quot;:&quot;支付宝WAP&quot;,&quot;paymentPlatform&quot;:1,&quot;useType&quot;:1},{&quot;groupId&quot;:96,&quot;groupName&quot;:&quot;支付宝手机&quot;,&quot;paymentPlatform&quot;:1,&quot;useType&quot;:1},{&quot;groupId&quot;:71,&quot;groupName&quot;:&quot;电子钱包&quot;,&quot;paymentPlatform&quot;:9,&quot;useType&quot;:1}]}">
+            <input class="policy_privileges_852-7-3-1-9" type="hidden" value="{852:{}}">
+            <input class="delivery_template_city_852" type="hidden" value="0">
+
+
+            <!-- 配送方式 start -->
+            <div class="box">
+                <div class="m-deliver m-deliver1">
+                    <div class="hd">
+                        <h2 class="tt">配送方式</h2>
+                    </div>
+                    <input class="project_city_id_hidden" type="hidden" value="852">
+                    <input class="send_city_id_hidden" type="hidden" value="852">
+
+                    <input class="c_hidden" type="hidden" value="2|11626541^6^8924716">
+                    <input class="oid_hidden" type="hidden" value="">
+                    <input class="tid_hidden" type="hidden" value="85dc022d036981311cd09bc332fe778b">
+                    <input class="p_hidden" type="hidden" value="116423">
+                    <input class="ref_hidden" type="hidden" value="">
+                    <input class="bef_hidden" type="hidden" value="">
+                    <input class="sign_hidden" type="hidden" value="e56010cfa3da29bc4f4e49d682edf41f">
+                    <input class="totalIntegral_hidden" type="hidden" value="0">
+
+                    <div class="bd">
+                        <!-- 选项卡 start -->
+                        <div class="nav">
+                            <a class="itm" href="javascript:;"> <i	class="icon icon-express"></i>
+                                <span class="txt">快递</span>
+                            </a>
+                            <a class="itm" href="javascript:;"> <i class="icon icon-self"></i>
+                                <span class="txt">上门自取</span>
+                            </a>
+                        </div>
+                        <!-- 选项卡 end -->
+
+                        <!-- 内容区 start -->
+
+                        <input class="send_to_city_id_hidden" type="hidden" value="852">
+                        <input class="send_to_province_id_hidden" type="hidden" value="851">
+                        <div class="box">
+                            <!-- 快递 start -->
+                            <input class="default_consignee_id" type="hidden" value="16072494">
+                            <div class="itm" delivery-method="1" send-to-city="852">
+                                <div class="m-schrst2 noaddress">
+                                    <ul class="lst">
+                                        <li class="itm"><span class="m_itmspan new_itmspan">暂无收货地址</span><a
+                                                class="more m_fr m-add" href="javascript:;">点击添加</a></li>
+                                    </ul>
+                                </div>
+                                <div class="express z-hide">
+                                    <div class="row">
+                                        <span class="name">收货人：**行</span>
+                                        <span class="phone">155****2745</span>
+                                    </div>
+                                    <div class="row">
+                                        <input class="hidden_countyId" type="hidden" value="858">
+                                        <input class="hidden_countyName" type="hidden" value="丰台区">
+                                        <span class="addr">北京北京市丰台区 五环内咯哦哦我怕啊了</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 快递 end -->
+                            <!-- 上门自取 start -->
+                            <div class="itm" delivery-method="2">
+                                <div class="m-fm">
+                                    <div class="row">
+                                        <label class="lab" style="width: 6rem;">取货城市</label>
+
+                                        <div class="ipt" style="position: relative;">
+                                            <p city-id="" class="ipt-city-btn">取货城市</p>
+                                            <ul class="ipt-c-list">
+                                                <li data-city="852" addr="地址：北京市东城区东中街32号楼7层（东环广场街心花园对面）,营业时间：工作日9:00-20:00，周末及节假日9:00-18:00">北京市</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label class="lab">收&nbsp;&nbsp;货&nbsp;&nbsp;人</label>
+                                        <div class="ipt" style="margin-left: 2rem;">
+                                            <input id="consignee2" type="text" class="u-ipt consignee-ipt" value="**行" placeholder="请输入收货人姓名">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label class="lab">手&nbsp;&nbsp;机&nbsp;&nbsp;号</label>
+                                        <div class="ipt" style="margin-left: 2rem;">
+                                            <input id="tel2" type="tel" class="u-ipt fill-num phone-ipt" value="155****2745" placeholder="请输入常用手机号">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p class="tips">取票地址：<span class="ipt_smzq_addr">北京市东城区东中街32号7层（东环广场街心花园对面），营业时间：工作日9：00-20：00，周末及节假日9：00-18：00</span></p>
+                            </div>
+                            <!-- 上门自取 end -->
+                        </div>
+                        <!-- 内容区 end -->
+                    </div>
+
+                </div>
+            </div>
+            <!-- 配送方式 end -->
+
+
+            <!-- 地址弹层 start -->
+            <div class="m-layer m-layer-base m-layer-addrlst z-hide">
+                <div class="hd">
+                    <h2 class="tt">收货地址</h2>
+                </div>
+
+                <div class="bd">
+                    <!-- 收货地址列表 start -->
+                    <div class="m-addrlst">
+                        <ul class="lst uladdlst">
+                            <li class="itm  def  li16072494" data-addressId="16072494" data-userCode="64083379" data-username="**行"
+                                data-prefix="86" data-mobile="155****2745" data-tel="" data-email="" data-postcode=""
+                                data-idType="0" data-idCard="" send-to-province="851" data-provincename="北京" send-to-city="852"
+                                data-cityname="北京市" data-countyid="858" data-countyname="丰台区" data-districtId="281108" data-districtName="丰台区 五环内" data-address="咯哦哦我怕啊了" >
+                                <div class="mn">
+                                    <div class="row">
+                                        <span class="name dname">收货人：**行</span>
+                                        <span class="phone dmobile">155****2745</span>
+                                    </div>
+                                    <div class="row">
+              <span class="addr daddress">
+              [默认地址]
+              北京北京市丰台区 五环内咯哦哦我怕啊了
+              </span>
+                                    </div>
+                                </div>
+                                <div class="sd">
+                                    <a class="u-check z-edit m-edit" href="javascript:;" cur-li="li16072494"></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 收货地址列表 end -->
+                </div>
+
+                <div class="ft">
+                    <a class="u-btn u-btn-c2 u-btn-lg m-add" href="javascript:;">添加收货地址</a>
+                    <a class="u-btn u-btn-c2 u-btn-lg u-btn-close" href="javascript:;">返回</a>
+                </div>
+            </div>
+            <!-- 地址弹层 end -->
+
+            <!-- 添加地址弹层 start -->
+            <!-- 添加地址弹层 start -->
+            <div class="m-layer m-layer-base m-deliver m-adr m-add-layer m-adr m-add-window z-hide">
+                <div class="hd">
+                    <h2 class="tt addresstitle">添加收货地址</h2>
+                    <input type="hidden" class="adrMode" />
+                </div>
+                <div class="bd" style="overflow: auto;">
+                    <!-- 收货地址列表 start -->
+                    <div class="m-schrst2 m-add-address" style="-webkit-box-sizing: border-box;">
+                        <ul class="lst">
+                            <li class="itm noline"><span class="m_itmspan">姓名：</span><input type="text" class="u-ipt1 deliveryname" placeholder=""></li>
+                            <li class="itm"><span class="m_itmspan">电话：</span><input type="tel" class="u-ipt1 deliverymobile" placeholder=""></li>
+                            <li class="itm"><span class="m_itmspan">省市区：</span><span class="u-ipt1 sel_adr1">请选择所在省市区</span></li>
+                            <li class="itm z-hide"><span class="m_itmspan">城市：</span><span class="u-ipt1 sel_adr2">选择城市</span></li>
+                            <li class="itm z-hide"><span class="m_itmspan">区域：</span><span class="u-ipt1 sel_adr3">选择区域</span></li>
+                            <li class="itm"><span class="m_itmspan">地址：</span><input type="text" class="u-ipt1 datailadr" placeholder=""></li>
+                        </ul>
+                    </div>
+                    <!-- 收货地址列表 end -->
+
+                </div>
+                <p class="tips n-tips adrtips"> </p>
+                <div class="ft">
+                    <a class="u-btn u-btn-c2 u-btn-lg u-finish adrcomplete" href="javascript:;">完成</a>
+                    <a class="u-btn u-btn-c2 u-btn-lg u-btn-close" href="javascript:;">返回</a>
+                </div>
+            </div>
+            <!-- 添加地址弹层 end -->
+
+            <!-- 输入正确手机号 start -->
+            <div class="m-layer m-layer-mobile z-hide">
+                <div class="fb">
+                    <p>提示：请输入正确的手机号码</p>
+                </div>
+                <div class="ft">
+                    <a class="u-btn u-btn-c2 u-btn-lg u-btn-know" href="javascript:;">我知道了</a>
+                </div>
+            </div>
+            <!-- 输入正确手机号 end -->
+
+            <!-- 选择省份 start -->
+            <div class="m-layer m-layer-provinces m-ss z-hide">
+                <div class="m-nav">
+                    <div class="cbox">
+                        <h1 class="tt">
+                            <span class="txt">选择省份</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="address">
+                    <div class="all-pos adrProvincesDiv">
+
+                    </div>
+                </div>
+                <div class="ft">
+                    <a class="u-btn u-btn-c2 u-btn-lg u-btn-cancel" href="javascript:;">取消</a>
+                </div>
+            </div>
+            <!-- 选择省份 end -->
+
+            <!-- 选择城市 start -->
+            <div class="m-layer m-layer-provinces m-city z-hide">
+                <div class="m-nav">
+                    <div class="cbox">
+                        <h1 class="tt">
+                            <span class="txt">选择城市</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="address">
+                    <div class="all-pos adrCityDiv">
+                    </div>
+                </div>
+                <div class="ft">
+                    <a class="u-btn u-btn-c2 u-btn-lg u-btn-cancel" href="javascript:;">取消</a>
+                </div>
+            </div>
+            <!-- 选择城市 end -->
+
+            <!-- 选择区域 start -->
+            <div class="m-layer m-layer-provinces m-area z-hide">
+                <div class="m-nav">
+                    <div class="cbox">
+                        <h1 class="tt">
+                            <span class="txt">选择区域</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="address">
+                    <div class="all-pos adrCodDiv">
+
+                    </div>
+                </div>
+                <div class="ft">
+                    <a class="u-btn u-btn-c2 u-btn-lg u-btn-cancel" href="javascript:;">取消</a>
+                </div>
+            </div>
+            <!-- 选择区域 end -->
+            <!-- 实名购票 start -->
+
+            <!-- 实名购票 end -->
+
+            <!-- 添加观众 start -->
+            <div class="m-layer m-layer-audience m-audience z-hide">
+                <div class="m-deliver">
+                    <div class="m-nav">
+                        <div class="cbox">
+                            <h1 class="tt">
+                                <span class="txt">添加证件信息</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <!-- 观众信息 start -->
+                    <div class="box">
+                        <div class="m-schrst2 m-lal">
+                            <ul class="lst">
+                                <li class="itm noline"><span class="m_itmspan">姓名：</span><input type="text" class="u-ipt1 u-name" placeholder="请输入姓名" value=""></li>
+                                <li class="itm idType">
+                                    <span class="m_itmspan">证件类型：</span>
+                                    <div class="m_fl virus z-show">
+                                        <input type="hidden" class="idTypeClass"/>
+                                    </div>
+                                </li>
+                                <li class="itm"><span class="m_itmspan">证件号：</span><input type="text" class="u-ipt1 u-number" placeholder="请输入证件号" value=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 观众信息 end -->
+                    <p class="tips n-tips"></p>
+                </div>
+                <div class="ft">
+                    <a class="u-btn u-btn-c2 u-btn-lg add-sf" href="javascript:;">完成</a>
+                    <a class="u-btn u-btn-c2 u-btn-lg u-btn-close" href="javascript:;">返回</a>
+                </div>
+            </div>
+            <!-- 添加观众 end -->
+            <!-- 优惠方式1 start -->
+            <div class="box m-yhzc-y z-hide">
+                <div class="m-deliver m-bank">
+                    <div class="hd">
+                        <h2 class="tt1">
+                            <span class="m_fl">选择优惠政策</span>
+                        </h2>
+                    </div>
+                    <div class="m-schrst2">
+                        <ul class="lst">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 优惠方式2 start -->
+            <div class="box m-yhj-y">
+                <div class="m-deliver">
+                    <div class="hd">
+                        <h2 class="tt1">
+                            <span class="m_fl">选择优惠券</span>
+                        </h2>
+                    </div>
+                    <!-- 优惠方式 start -->
+                    <div class="m-schrst2">
+                        <ul class="lst">
+
+                            <li class="itm"><span class="m_itmspan">优惠券 <span
+                                    class="m_c777">(<span class="privilege_coupon_number">0</span>张可用)</span></span><a class="more m_fr price2"
+                                                                                                                       href="javascript:;">选择使用</a></li>
+                        </ul>
+                    </div>
+                    <!-- 优惠方式 end -->
+                </div>
+            </div>
+
+            <!-- 优惠方式2 end -->
+
+
+            <!-- 优惠券张数弹层 start -->
+            <div class="m-layer m-layer-yhj m-yhj z-hide">
+                <div class="box">
+                    <div class="m-schrst2">
+                        <!-- 优惠卷张数 start -->
+                        <ul class="lst">
+                        </ul>
+                        <!-- 优惠券张数 end -->
+                    </div>
+                </div>
+                <div class="ft">
+                    <a class="u-btn u-btn-c2 u-btn-lg price5" href="javascript:;">添加优惠券</a>
+                </div>
+            </div>
+            <!-- 优惠券张数弹层 end -->
+
+
+            <!-- 添加优惠券 成功start -->
+            <div class="m-layer m-layer-code m-layer-code-1 z-hide">
+                <div class="hd">
+                    <h2 class="tt mt10">添加优惠券</h2>
+                </div>
+                <div class="bd m-addsuccess mt20 mb20">
+                    <span>添加成功</span>
+                </div>
+            </div>
+            <!-- 添加优惠券 成功 end -->
+
+            <!-- 添加优惠券 加载中 start -->
+            <div class="m-layer m-layer-code m-layer-code-2 z-hide">
+                <div class="hd">
+                    <h2 class="tt mt10 ">添加优惠券</h2>
+                </div>
+                <div class="bd m-addsuccess mt20 mb20">
+                    <img src="http://dui.dmcdn.cn/dm_trade_system/msite/images/imgload.gif" width="32" height="32" >
+                </div>
+
+            </div>
+            <!-- 添加优惠券 加载中 end -->
+
+            <!-- 验证码弹层 start -->
+            <div class="m-layer m-layer-code m-layer-code-3 z-hide">
+                <div class="hd">
+                    <h2 class="tt">添加优惠券</h2>
+                </div>
+                <div class="bd">
+                    <div class="u-ipt u-ipt-code">
+                        <input class="ipt m_new_ipt coupon_code" type="telephone" placeholder="请输入优惠券号码">
+                    </div>
+                </div>
+                <div class="ft">
+                    <div class="ops">
+                        <a href="javascript:;" class="u-btn" data-hide-layer=".m-layer">取消</a>
+                        <a href="javascript:;" class="u-btn u-btn-ok">确定</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 验证码弹层 end -->
+
+            <!-- 优惠券不可与其他优惠同时享有弹层 start -->
+            <div class="m-layer m-layer-code m-layer-code-4 z-hide">
+                <div class="hd">
+                    <h2 class="tt">添加优惠券</h2>
+                </div>
+                <div class="bd">
+                    <p class="cp-tt">优惠券不可与其他优惠同时享有</p>
+                </div>
+                <div class="ft">
+                    <div class="ops">
+                        <a href="javascript:;" class="u-btn" data-hide-layer=".m-layer">取消</a>
+                        <a href="javascript:;" class="u-btn u-btn-ok">确定</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 优惠券不可与其他优惠同时享有弹层 end -->
+            <!-- 添加优惠券 异常情况 start -->
+            <div class="m-layer m-layer-code m-layer-code-5 z-hide">
+                <div class="bd m-addsuccess mt20 mb20">
+                    <span style="font-size:1.4rem;">抱歉系统繁忙，请稍后重新选择</span>
+                </div>
+            </div>
+            <!-- 添加优惠券 异常情况 end -->
+            <!-- 优惠方式3 start -->
+            <div class="box m-jf-y z-hide">
+                <div class="m-deliver">
+                    <div class="hd">
+                        <h2 class="tt1">
+                            <span class="m_fl">积分抵扣票款</span>
+                        </h2>
+                    </div>
+
+                    <!-- 优惠方式 start -->
+                    <div class="m-schrst2">
+                        <ul class="lst">
+                        </ul>
+                    </div>
+                    <!-- 优惠方式 end -->
+                </div>
+            </div>
+
+            <!-- 支付方式 start -->
+            <div class="box">
+                <input type="hidden" class="paylimitClass" value="" />
+                <div class="m-payway1">
+                    <div class="hd">
+                        <h2 class="tt">支付方式</h2>
+                    </div>
+                    <div class="bd">
+                        <ul class="lst paymentway_ul">
+                            <li class="itm">
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 支付方式 end -->
+            <!-- 安心订票保险 start -->
+            <div class="box">
+                <div class="hd m-insure">
+                    <input class="insuranceTypeClass" type="hidden" value="1" />
+                    <h2 class="tt">安心订票保险（474.00元）</h2>
+                    <a amount='474.00' class="u-check" href="javascript:;"></a>
+                </div>
+                <div class="mb10">
+                    <p class="mb5 m_f14 m_caaa">因自身原因未能观看演出可申请理赔哦！</p>
+                    <a href="javascript:;" class="m_c108 m_f14 insure-btn">(查看保险服务说明)</a>
+                </div>
+            </div>
+            <!-- 安心订票保险 end -->
+
+            <div class="m-layer m-layer-tip z-hide">
+                <div class="bd">
+                    <p>勾选保险需填写真实姓名</p>
+                </div>
+                <div class="ft">
+                    <a class="u-btn u-btn-c2 u-btn-lg m-know" href="javascript:;" data-hide-layer=".m-layer">我知道了</a>
+                </div>
+            </div>
+
+
+
+            <!-- 发票模块 start -->
+            <div class="box">
+                <div class="m-invoice">
+                    <div class="hd">
+                        <h2 class="tt">我要开发票</h2>
+                        <a class="u-check" href="javascript:;"></a>
+                    </div>
+                    <div class="bd">
+                        <div class="m-fm z-hide">
+                            <div class="row">
+                                <label class="lab">发票抬头</label>
+                                <div class="ipt">
+                                    <input class="invoiceTypeClass" type=hidden value="2" />
+                                    <input class="dutyClass" type=hidden value="0" />
+                                    <input class="organizationCodeClass" type=hidden value="0" />
+                                    <input type="text" class="u-ipt invoice-ipt" placeholder="请输入公司名称3~30字" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fd">
+                        <p class="fd_notice z-hide">票品与发票存在不能同时配送的情况，待发票开出后通知您</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 发票模块 end -->
+
+
+            <!-- 优惠方式 start -->
+            <div class="box">
+                <div class="m-deliver">
+                    <!-- 优惠方式 start -->
+                    <div class="m-schrst3">
+                        <ul class="lst">
+                            <input class="commodity_number" type="hidden" value="6">
+                            <input class="price_numbers" type="hidden" value="1280.0">
+                            <input class="order_total_amount_hidden" type="hidden" value="7680.00">
+                            <input class="category_id_hidden" type="hidden" value="1">
+                            <input class="privilege_id_hidden" type="hidden">
+                            <input class="privilege_type_hidden" type="hidden">
+                            <input class="groupId_hidden" type="hidden" value="852-7-3-1-9">
+                            <input class="businessSubType_hidden" type="hidden" value="2">
+                            <input class="performId_hidden" type="hidden" value="8924716">
+                            <input class="projectId_hidden" type="hidden" value="116423">
+                            <input class="user_code" type="hidden" value="64083379">
+                            <li class="itm"><span class="m_itmspan">商品金额</span><span
+                                    class="m_fr m-schrst3_span"><span class="commodity_amount_span">7680.00</span>元</span></li>
+                            <input class="commodity_amount_input" type="hidden" value="7680.00" />
+                            <li class="itm"><span class="m_itmspan">运费</span><span
+                                    class="m_fr m-schrst3_span"><span class="express_span">0.00</span>元</span></li>
+                            <li class="itm insure_amount_lii" style="display: none"><span class="m_itmspan">保险金额</span>
+                                <span class="m_fr m-schrst3_span">
+                <span class="insure_amount_span">0.00</span>元</span>
+                            </li>
+
+                            <li class="itm privilege-mutex-hidden"><span class="m_itmspan">优惠政策</span><span
+                                    class="m_fr m-schrst3_span">
+					<span class="policies_span">0.00</span>元
+					</span></li>
+                            <li class="itm privilege-mutex-hidden"><span class="m_itmspan">优惠券</span><span
+                                    class="m_fr m-schrst3_span"><span class="coupon_span">0.00</span>元</span></li>
+                            <li class="itm privilege-mutex-hidden"><span class="m_itmspan">积分</span><span
+                                    class="m_fr m-schrst3_span"><span class="score_span">0.00</span>元</span></li>
+                        </ul>
+                    </div>
+                    <!-- 优惠方式 end -->
+
+                </div>
+            </div>
+            <!-- 优惠方式 end -->
+
+
+
+
+            <!-- 座位信息 start -->
+            <div class="m-seatinfo1">
+                <div class="hd">
+                    <div class="txt">
+                        <span class="m_f34 m_ce4">￥<span class="total_amount_span">8154.0</span></span>
+                    </div>
+                    <a class="u-btn u-btn-c2 u-btn-buy product_submit_order" order-data="2" href="javascript:;">提交支付</a>
+                </div>
+            </div>
+            <!-- 座位信息 end -->
+
+
+            <!--商品信息-->
+
+
+            <!--交易数据表单-->
+            <!--优惠-->
+            <!--限购-->
+            <!--收货人-->
+            <!--保险-->
+            <!--发票-->
+            <!--标签-->
+            <!--商品信息-->
+
+            <!--isSuccessId false 表示有验证没有通过-->
+            <input class="groupId_hidden_1" type="hidden" value="852-7-3-1-9">
+            <input id="isSuccessId" type="hidden" />
+            <input id="commodityNumId" value="1" type="hidden" />
+            <input id="pickupCityId" type="hidden" />
+            <input id="pickupCityName" type="hidden" />
+            <form id="submitFormId" action="/msite/trans/submitOrderInfo" method="post">
+                <!--事物号-->
+                <input id="tradeId" name="tradeId" type="hidden" />
+                <!--订单号-->
+                <input id="orderId" name="orderId" type="hidden" />
+                <!--groupID-->
+                <input id="groupId" name="groupId" type="hidden" value="852-7-3-1-9"/>
+                <input id="projectId" name="projectId" type="hidden" />
+                <!--商品数据-->
+                <input id="commodityParamsId" name="commodityParams" type="hidden" />
+                <!--配送方式-->
+                <input id="deliveryTypeId" name="deliveryType" type="hidden" />
+                <!--支付类别-->
+                <input id="payKindId" name="payKind" type="hidden" value="1" />
+                <!--支付方式-->
+                <input id="payMethodId" name="payMethod" type="hidden" value="0" />
+                <!--支付方式-->
+                <input name="performId" type="hidden" value="8924716" />
+
+                <!--优惠信息-->
+                <input id="privilegeId" name="frontPivilege[0].privilegeId" type="hidden" value="" />
+                <input id="privilegeNameId" name="frontPivilege[0].privilegeName" type="hidden" value="" />
+                <input id="privilegeAmountId" name="frontPivilege[0].privilegeAmount" type="hidden" value="" />
+                <input id="usableId" name="frontPivilege[0].usable" type="hidden" value="" />
+                <input id="providerId" name="frontPivilege[0].providerId" type="hidden" value="" />
+                <input id="describeId" name="frontPivilege[0].describe" type="hidden" value="" />
+                <input id="privilegeTypeId" name="frontPivilege[0].privilegeType" type="hidden" value="" />
+                <!--实名制信息-->
+                <input id="idTypeId" name="sKULimit[0].idType" type="hidden" value="0"/>
+                <input id="idCardId" name="sKULimit[0].idCard" type="hidden" value=""/>
+                <!--交易人信息-->
+                <input id="addressIdId" name="trader.addressId" type="hidden" value="16072494">
+                <input id="userCodeId" name="trader.userCode" type="hidden" value="64083379">
+                <input id="userNameId" name="trader.userName" type="hidden" value="**行" />
+                <input id="prefixId" name="trader.prefix" type="hidden" value="86"/>
+                <input id="mobilePhoneId" name="trader.mobilePhone" type="hidden" value="155****2745">
+                <input id="telId" name="trader.tel" type="hidden" value="">
+                <input id="emailId" name="trader.email" type="hidden" value="">
+                <input id="postcodeId" name="trader.postcode" type="hidden" value="">
+                <input id="idTypeId01" name="trader.idType" type="hidden" value="0"/>
+                <input id="idCardId01" name="trader.idCard" type="hidden" value=""/>
+                <input id="provinceId" name="trader.provinceId" type="hidden" value="851"/>
+                <input id="provinceNameId" name="trader.provinceName" type="hidden" value="北京"/>
+                <input id="cityId" name="trader.cityId" type="hidden" value="852"/>
+                <input id="cityNameId" name="trader.cityName" type="hidden" value="北京市"/>
+                <input id="countyId" name="trader.countyId" type="hidden" value="858"/>
+                <input id="countyNameId" name="trader.countyName" type="hidden" value="丰台区"/>
+                <input id="districtId" name="trader.districtId" type="hidden" value="281108"/>
+                <input id="districtNameId" name="trader.districtName" type="hidden" value="丰台区 五环内"/>
+                <input id="addressId" name="trader.address" type="hidden" value="咯哦哦我怕啊了"/>
+
+                <!--默认安心订票-->
+                <input id="insuranceTypeId" name="insurance[0].insuranceType" type="hidden" value="1" />
+
+                <!--保单-->
+                <input id="invoiceTypeId" name="invoice[0].invoiceType" type="hidden" />
+                <input id="dutyId" name="invoice[0].duty" type="hidden" />
+                <input id="organizationCodeId" name="invoice[0].organizationCode" type="hidden" />
+                <input id="invoiceTitleId" name="invoice[0].invoiceTitle" type="hidden" />
+
+                <!--商品信息-->
+                <input name="buyCommodityList[0].commodityGUID" type="hidden" value="" />
+                <input name="buyCommodityList[0].commodityID" type="hidden" value="11626541" />
+                <input name="buyCommodityList[0].buyNum" type="hidden" value="6" />
+                <input id="cityID0" name="buyCommodityList[0].cityID" type="hidden" />
+                <input id="batchID" name="buyCommodityList[0].batchID"  type="hidden" value="8924716" />
+
+                <!--是否开启验证码-->
+                <input id="openVerificationCode" name="openVerificationCode" type="hidden" value="false"/>
+                <input name="verifyCodecrypt" type="hidden" value="3e96c0e57a130a3e5c08e88b1515bfa6" />
+                <input id="verifyCode"  name="verifyCode" type="hidden" />
+            </form></div>
+        <!-- 订单确认 end -->
+    </div>
+    <div class="g-ft"></div>
+</div>
+<!-- 遮罩层 start -->
+<div class="m-mask z-hide"></div>
+<!-- 遮罩层 end -->
+
+<!-- 保险产品说明  -->
+<!-- 保险产品说明 begin -->
+<div class="insurance">
+    <div class="box">
+        <h3>安心订票保险说明</h3>
+        <p><span>购买份数：</span>每张票只能投保一次，不得重复投保；</p>
+        <p><span>保额：</span>按照每张票实付票款的90%计算（四舍五入取整）；</p>
+        <p><span>投保范围：</span>在大麦网购买各类演出票的客人均可作为被保险人参加本保险；</p>
+        <p><span>保险责任：</span>在保险期间内，因如下原因导致门票使用者无法出席提前订购的文化演出、体育赛事时，对于被保险人所支付、且不予退换的票款金额损失，保险公司将在扣除免赔额后按约定比例赔偿, 保险金最高给付金额以保险单所载明的额度为限。</p>
+        <p>1、 在文化演出、体育赛事开始当日之前15天内,门票使用者或其配偶、父母或子女身故或遭遇意外伤害事故或罹患突发性疾病导致必须住院治疗；</p>
+        <p>2、 门票使用者或其配偶因妊娠并发症，且经当地医院医生诊断不宜出席原定演出或赛事；</p>
+        <p>3、 在文化演出、体育赛事开始当日之前2天内,因火灾、雷击、台风、龙卷风、暴风、洪水、地震、自来水管道、下水管道、暖气管道（含暖气片）突然破裂，或者因盗窃或抢劫造成其日常居住地的室内家庭财产损失，且门票使用者无法出席原定演出或赛事；</p>
+        <p>4、 门票使用者意外失业；</p>
+        <p>5、 在文化演出、体育赛事开始当日之前7天内，门票使用者因临时职业培训或出差安排，且无法出席原定演出或赛事；</p>
+        <p>6、 门票使用者未能预计地被强制性隔离；</p>
+        <p>7、 在文化演出、体育赛事开始当日，门票使用者所乘坐的前往文化演出、体育赛事所在地既定航班（航空公司对外公布的班期时刻表上列明的该航班到达时间须至少早于已预订活动、演出开始时间4小时以上）的取消或延误达4小时以上；</p>
+        <p>8、 在文化演出、体育赛事开始当日，门票使用者所乘坐前往活动、演出场地的公共交通工具意外停运或延误达1个半小时以上；</p>
+        <p>9、 在文化演出、体育赛事开始当日，门票使用者在自驾前往活动、演出场地的必经路途中，因大规模临时交通管制或恶劣天气导致交通瘫痪；</p>
+        <p>10、 在文化演出、体育赛事开始当日，门票使用者自驾前往活动、演出场地的途中，车辆意外抛锚须救援公司救援；</p>
+        <p>11、 在文化演出、体育赛事开始当日，门票使用者自驾前往活动、演出场地的途中，车辆遭遇交通事故；</p>
+        <p>12、 门票使用者收到传票须在指定的门票使用日出任庭审或诉讼程序证人且不能延期；</p>
+        <p>13、 在文化演出、体育赛事开始当日之前7天内，活动、演出或景点所在地发生5级以上地震；</p>
+        <p>14、 在文化演出、体育赛事开始当日之前2天内，活动、演出或景点所在地气象部门发布门票使用日的大风、冰雹、暴雨的红色预警信号；</p>
+        <p>15、 门票使用者遭受绑架或非法拘禁；</p>
+        <p>16、 门票使用者的宠物因急性病必须马上治疗（须持宠物证及宠物医院医疗诊断证明）。</p>
+        <p><span>保险条款：</span><a href="http://www.damai.cn/QuestionDetail_180_389.html" target="_blank">请点此处查看保险条款详情</a></p>
+        <p><span>特殊说明：</span></p>
+        <p>1. 本产品由中银保险有限公司承保</p>
+        <p>2. 理赔电话：400-650-8012 咨询电话：400-650-0269</p>
+        <p>3. 请登陆中银保险有限公司门户网站<a href="http://cha.bocins.com/" target="_blank">http://cha.bocins.com/</a>查询保单信息
+        <p>4. 电子保单和纸质保单具备同等法律效应，请妥善保存。</p>
+        <p>5. 如遇演出取消、大麦超售、客户升舱、客户降舱情况，投保人授权并同意由“大麦网”(隶属于北京红马传媒文化发展有限公司或其分公司)代办退保申请等相关事宜，同意保险公司将保费退至“大麦网”账户，再由“大麦网”转交至投保人。</p>
+    </div>
+    <div class="ft">
+        <a class="u-btn u-btn-c2 u-btn-lg m-know" href="javascript:;">我知道了</a>
+    </div>
+</div>
+<!-- 保险产品说明 end -->
+
+<script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/vendor/fastclick/fastclick.js"></script>
+<script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/vendor/zepto/zepto.js"></script>
+<script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/vendor/zepto/event.js"></script>
+<script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/vendor/zepto/touch.js"></script>
+<script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/vendor/zepto/ajax.js"></script>
+<script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/vendor/zepto/fx.js"></script>
+<script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/vendor/zepto/fx_methods.js"></script>
+<script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/vendor/iscroll/iscroll-lite.js" ></script>
+<script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/vendor/swiper/swiper.min.js"></script>
+<script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/common.js"></script>
+<script src="http://dui.dmcdn.cn/dm_trade_system/msite/js/transConfirm.js?a034ae62b2b8412ade18"></script>
+
+<script type="text/javascript">
+    if(typeof(dplus.define) == "function"){
+        dplus.define('page', function(page){
+            page.setId('');
+            page.setType('submitpay'); page.setTitle('提交支付页/订单确认页');
+            page.view({'$itemid':116423});
+        });
+    }
+</script>
+</body>
+</html>

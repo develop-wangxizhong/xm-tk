@@ -1,0 +1,50 @@
+
+//他的来源是UserInfo  302重定向后获取关键随机参数   http://m.damai.cn/mobileLogin.aspx?from=%252fuserinfo.aspx&mp=B7923865D6D69F4AA8B9F0E6A4C1EF0760A5142BC1F55BEAF7AF7795B054441256ADDCC6F4E13981C7DCF923858B7459&_m=8c0e54524561ef2ba4aeb908a40605ac
+//在网页中获取_m   uid  然后进行短信验证
+
+
+
+Request URL:http://m.damai.cn/ajax.aspx
+Request Method:POST
+Status Code:200 OK
+Remote Address:220.181.105.241:80
+Response Headers
+view source
+Cache-Control:private
+Connection:keep-alive
+Content-Encoding:gzip
+Content-Type:text/html; charset=utf-8
+Date:Sun, 21 May 2017 12:37:22 GMT
+EagleId:6a78b50a14953702418502683e
+Server:Tengine
+Set-Cookie:page_tran_time=296.9; path=/
+Timing-Allow-Origin:*
+Transfer-Encoding:chunked
+Vary:Accept-Encoding
+Vary:Accept-Encoding
+Via:cache1.l2et15[752,200-0,M], cache14.l2et15[753,0], kunlun6.cn125[807,200-0,M], kunlun10.cn125[808,0]
+X-AspNet-Version:4.0.30319
+X-Cache:MISS TCP_MISS dirn:-2:-2
+X-Powered-By:ASP.NET
+X-Swift-CacheTime:0
+X-Swift-SaveTime:Sun, 21 May 2017 12:37:22 GMT
+Request Headers
+view source
+Accept:application/json, text/javascript, */*; q=0.01
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.8
+Connection:keep-alive
+Content-Length:160
+Content-Type:application/x-www-form-urlencoded; charset=UTF-8
+Cookie:cporder=ordervalue=bjXlKqMZTofrF%2bliAgYW9F6ZrOVbPR4gNtc15i56OZ0FL%2fQZ%2b1I0eIWnEZgd99zDusexD46dtaR%2b7XnEZzbqFQ%3d%3d; cporderV2=bjXlKqMZTofrF%2bliAgYW9F6ZrOVbPR4gNtc15i56OZ0FL%2fQZ%2b1I0eIWnEZgd99zDusexD46dtaR%2b7XnEZzbqFQ%3d%3d; _damai_sour=4wz24HSt1YY=; x_hm_tuid=/MY55ZBrQXuIIREkpg4miwB7qMqcQI8JibwFEEI+gmA8dgDTsaeEoSgW/hg3ea/T; PHPStat_M_.cn/=1495360963177; PHPStat_M_login=1495360985952; PHPStat_M_.cn/bj/=1495361077387; PHPStat_M_.cn/tj/=1495365924056; PHPStat_M_login_b=ulti; acw_tc=AQAAADtbCALLMwoA3y+rcxiEIQDBh0/Y; cookie_tuid=csjyW/Z78KYlQ9+iQt7U0OPSKVUAf77iTLaFHoXO7aY=; damai.cn_user=HwpnhU7NBffJHcCYMXEUA+fABXGyPZqCg+vSfvI2UzlCPaYwFo8tfuP4Y+u21tQm; damai.cn_email=15578072745; damai_cn_user=HwpnhU7NBffJHcCYMXEUA+fABXGyPZqCg+vSfvI2UzlCPaYwFo8tfuP4Y+u21tQm; userloginkey=f60361d6820b46afaa680f4d27d17a8d_2_3; ASP.NET_SessionId=xoxtvfuwe5kt3vlyv2xpel1p; _fmdata=6FDA3CC108DCE8C7D9BBD5C4B9A410B5D67220BE54502925479B27AB0C0FA05FFE4707469A472EA748AE1DD8B20670FF9750D87D9367CB3F; mcity=1209; cpSTAT_ok_pages=3; cpSTAT_ok_times=1; page_tran_time=31.2488; u_asec=090%23qCQXYTXPXDnXuTi0XXXXXuS8vzgEj07%2BfwYZI6jq%2BUA3DzLocYjJ%2BwsvCXQXistV2Jq958xiXaHPsiLNwqi5vLjl%2Fn0vwuSlm6vgkAavKNzPsi0uwqi8dOjl%2Fn0vwuSloTQXa67Mf5E8x3B9xXQXiHDow1XS%2FsPiXI4plt7qvSwK%2FDTE%2FHNIpvxfFbRgOQb3QkB4deDCaDVOrt4V6okBxRv6T2ly2FcSZsdrv6P1SoJNrtClIAxoSCDdI2hb2WNWbsdiBAnK7dbAZldD5BMoYRWRSrYk5c3K9IKzSqL0bd25ZHEa5Urbl7c0vyXk2MbW1hs%2FBBJKEd20ZDqa%2F1HFbRFAD8QT5cbK9sKiB1JNEEMA9%2FB25iHkZEbtBDPKuelcQhquLKLCZEt0ylqr5kLe3dL2FlPcOzNHydycvAR0ldJua20ahFW8oEvf32PcIzIrl4kV3F5llXQXa52kn0CQx81npYS5XvXQ0ZsNLN4iXXfMhTQ%2F; cn_7415364c9dab5n09ff68_dplus=%7B%22distinct_id%22%3A%20%2215c268c88a32a-09f0310cb4e2cc-1d3e6850-13c680-15c268c88a4a56%22%2C%22initial_view_time%22%3A%20%221495294884%22%2C%22initial_referrer%22%3A%20%22https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DbyhbtkEjk8T-nOafUSEQ-MeunyZh_jI_1Z9VQlNhXDu%26wd%3D%26eqid%3Dba01664200097b350000000359206580%22%2C%22initial_referrer_domain%22%3A%20%22www.baidu.com%22%2C%22%24recent_outside_referrer%22%3A%20%22%24direct%22%2C%22%24_sessionid%22%3A%200%2C%22%24_sessionTime%22%3A%201495370232%2C%22%24dp%22%3A%200%2C%22%24_sessionPVTime%22%3A%201495370232%2C%22%24uid%22%3A%200%2C%22%24ph%22%3A%20%2215578072745%22%2C%22%24at%22%3A%20%22%E7%9B%B4%E6%8E%A5%E6%B3%A8%E5%86%8C%22%2C%22%24usc%22%3A%20%22msite%22%7D; UM_distinctid=15c268c88a32a-09f0310cb4e2cc-1d3e6850-13c680-15c268c88a4a56; CNZZDATA1256416394=199694850-1495362627-null%7C1495370055
+Host:m.damai.cn
+Origin:http://m.damai.cn
+Referer:http://m.damai.cn/mobileLogin.aspx?from=%252fuserinfo.aspx&mp=B7923865D6D69F4AA8B9F0E6A4C1EF0760A5142BC1F55BEAF7AF7795B054441256ADDCC6F4E13981C7DCF923858B7459&_m=8c0e54524561ef2ba4aeb908a40605ac
+User-Agent:Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36
+X-Requested-With:XMLHttpRequest
+Form Data
+view source
+view URL encoded
+_action:SendMobileVcode
+uid:B7923865D6D69F4AA8B9F0E6A4C1EF0760A5142BC1F55BEAF7AF7795B054441256ADDCC6F4E13981C7DCF923858B7459
+_m:f5792f9fa11477dd760c8de146762213

@@ -1,0 +1,78 @@
+Request URL:http://trade.damai.cn/msite/trans/submitOrderInfo
+Request Method:POST
+Status Code:200 OK
+Remote Address:58.83.157.240:80
+Response Headers
+view source
+Connection:keep-alive
+Content-Encoding:gzip
+Content-Language:zh-CN
+Content-Type:text/html;charset=UTF-8
+Date:Sun, 21 May 2017 13:39:25 GMT
+Server:Tengine
+Set-Cookie:JSESSIONID=0A7F53E0214BC1B318DC550AC729A2E7; Path=/trade-frontend-web; HttpOnly
+Transfer-Encoding:chunked
+Vary:Accept-Encoding
+Request Headers
+view source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.8
+Cache-Control:max-age=0
+Connection:keep-alive
+Content-Length:1276
+Content-Type:application/x-www-form-urlencoded
+Cookie:_uab_collina=149537393738151191961032; cporder=ordervalue=bjXlKqMZTofrF%2bliAgYW9F6ZrOVbPR4gNtc15i56OZ0FL%2fQZ%2b1I0eIWnEZgd99zDusexD46dtaR%2b7XnEZzbqFQ%3d%3d; cporderV2=bjXlKqMZTofrF%2bliAgYW9F6ZrOVbPR4gNtc15i56OZ0FL%2fQZ%2b1I0eIWnEZgd99zDusexD46dtaR%2b7XnEZzbqFQ%3d%3d; _damai_sour=4wz24HSt1YY=; x_hm_tuid=/MY55ZBrQXuIIREkpg4miwB7qMqcQI8JibwFEEI+gmA8dgDTsaeEoSgW/hg3ea/T; PHPStat_M_.cn/=1495360963177; PHPStat_M_login=1495360985952; PHPStat_M_.cn/bj/=1495361077387; PHPStat_M_.cn/tj/=1495365924056; PHPStat_M_login_b=ulti; damai.cn_user=HwpnhU7NBffJHcCYMXEUA+fABXGyPZqCg+vSfvI2UzlCPaYwFo8tfuP4Y+u21tQm; damai.cn_email=15578072745; damai_cn_user=HwpnhU7NBffJHcCYMXEUA+fABXGyPZqCg+vSfvI2UzlCPaYwFo8tfuP4Y+u21tQm; PHPStat_M_ulti=1495373128594; NTKF_T2D_CLIENTID=guest316D3E3C-7453-1356-A357-2B3066A6FD8A; nTalk_CACHE_DATA={uid:dm_1000_ISME9754_guest316D3E3C-7453-13,tid:1495373211301600}; _fmdata=6FDA3CC108DCE8C7D9BBD5C4B9A410B5D67220BE54502925479B27AB0C0FA05FFE4707469A472EA748AE1DD8B20670FF9750D87D9367CB3F; CNZZDATA1256416394=110843291-1495349174-%7C1495370055; cn_7415364c9dab5n09ff68_dplus=%7B%22distinct_id%22%3A%20%2215c268c88a32a-09f0310cb4e2cc-1d3e6850-13c680-15c268c88a4a56%22%2C%22initial_view_time%22%3A%20%221495294884%22%2C%22initial_referrer%22%3A%20%22https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DbyhbtkEjk8T-nOafUSEQ-MeunyZh_jI_1Z9VQlNhXDu%26wd%3D%26eqid%3Dba01664200097b350000000359206580%22%2C%22initial_referrer_domain%22%3A%20%22www.baidu.com%22%2C%22%24recent_outside_referrer%22%3A%20%22%24direct%22%2C%22%24_sessionid%22%3A%200%2C%22%24_sessionTime%22%3A%201495373964%2C%22%24dp%22%3A%200%2C%22%24_sessionPVTime%22%3A%201495373964%2C%22%24uid%22%3A%200%2C%22%24ph%22%3A%20%2215578072745%22%2C%22%24at%22%3A%20%22%E7%9B%B4%E6%8E%A5%E6%B3%A8%E5%86%8C%22%2C%22%24usc%22%3A%20%22msite%22%7D; UM_distinctid=15c268c88a32a-09f0310cb4e2cc-1d3e6850-13c680-15c268c88a4a56
+Host:trade.damai.cn
+Origin:http://trade.damai.cn
+Referer:http://trade.damai.cn/msite/zh-cn/commodity/confirm?bef=&c=2|11626541^6^8924716&cid=852&oid=&p=116423&ref=&tid=78a4f2e9f895ee496aec81c4d268b5ece599ca94a4c34044850c563db57bec9938ca02e724df5cca04a7c1413387175b&sign=e56010cfa3da29bc4f4e49d682edf41f
+Upgrade-Insecure-Requests:1
+User-Agent:Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36
+Form Data
+view source
+view URL encoded
+
+
+tradeId:85dc022d036981311cd09bc332fe778b
+orderId:0
+groupId:852-7-3-1-9
+projectId:116423
+commodityParams:2|11626541^6^8924716
+deliveryType:1
+payKind:1
+payMethod:96
+performId:8924716
+frontPivilege[0].privilegeId:
+frontPivilege[0].privilegeName:
+frontPivilege[0].privilegeAmount:0
+frontPivilege[0].usable:0
+frontPivilege[0].providerId:
+frontPivilege[0].describe:
+frontPivilege[0].privilegeType:0
+trader.addressId:16072494
+trader.userCode:64083379
+trader.userName:**行
+trader.prefix:86
+trader.mobilePhone:155****2745
+trader.tel:
+trader.email:
+trader.postcode:
+trader.idType:0
+trader.idCard:
+trader.provinceId:851
+trader.provinceName:北京
+trader.cityId:852
+trader.cityName:北京市
+trader.countyId:858
+trader.countyName:丰台区
+trader.districtId:281108
+trader.districtName:丰台区 五环内
+trader.address:咯哦哦我怕啊了
+buyCommodityList[0].commodityGUID:
+buyCommodityList[0].commodityID:11626541
+buyCommodityList[0].buyNum:6
+buyCommodityList[0].cityID:852
+buyCommodityList[0].batchID:8924716
+openVerificationCode:false
+verifyCodecrypt:3e96c0e57a130a3e5c08e88b1515bfa6
+verifyCode:

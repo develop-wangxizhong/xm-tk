@@ -1,0 +1,40 @@
+//这个页面中返回的数据非常关键   一定要走这一步
+
+Request URL:http://trade.damai.cn/msite/zh-cn/commodity/confirm?bef=&c=2|11626579^5^8924716&cid=852&oid=&p=116423&ref=&tid=14a15a0578fb032284468584c8b88d8f4b51d8bb9803ac0acaba60ac981d7de838ca02e724df5cca04a7c1413387175b&sign=8f6a8532a8395f3528e42c5f3c099945
+Request Method:GET
+Status Code:200 OK
+Remote Address:58.83.157.240:80
+Response Headers
+view source
+Connection:keep-alive
+Content-Encoding:gzip
+Content-Language:zh-CN
+Content-Type:text/html;charset=UTF-8
+Date:Sun, 21 May 2017 13:30:36 GMT
+Server:Tengine
+Set-Cookie:JSESSIONID=7E960E18CEF4D2E254AFCCF5BB0B2F67; Path=/trade-frontend-web; HttpOnly
+Transfer-Encoding:chunked
+Vary:Accept-Encoding
+Request Headers
+view source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:zh-CN,zh;q=0.8
+Connection:keep-alive
+Cookie:CNZZDATA1256416394=110843291-1495349174-%7C1495349174; _fmdata=6FDA3CC108DCE8C7D9BBD5C4B9A410B5D67220BE54502925479B27AB0C0FA05FFE4707469A472EA748AE1DD8B20670FF9750D87D9367CB3F; cporder=ordervalue=bjXlKqMZTofrF%2bliAgYW9F6ZrOVbPR4gNtc15i56OZ0FL%2fQZ%2b1I0eIWnEZgd99zDusexD46dtaR%2b7XnEZzbqFQ%3d%3d; cporderV2=bjXlKqMZTofrF%2bliAgYW9F6ZrOVbPR4gNtc15i56OZ0FL%2fQZ%2b1I0eIWnEZgd99zDusexD46dtaR%2b7XnEZzbqFQ%3d%3d; _damai_sour=4wz24HSt1YY=; x_hm_tuid=/MY55ZBrQXuIIREkpg4miwB7qMqcQI8JibwFEEI+gmA8dgDTsaeEoSgW/hg3ea/T; PHPStat_M_.cn/=1495360963177; PHPStat_M_login=1495360985952; PHPStat_M_.cn/bj/=1495361077387; PHPStat_M_.cn/tj/=1495365924056; PHPStat_M_login_b=ulti; damai.cn_user=HwpnhU7NBffJHcCYMXEUA+fABXGyPZqCg+vSfvI2UzlCPaYwFo8tfuP4Y+u21tQm; damai.cn_email=15578072745; damai_cn_user=HwpnhU7NBffJHcCYMXEUA+fABXGyPZqCg+vSfvI2UzlCPaYwFo8tfuP4Y+u21tQm; PHPStat_M_ulti=1495373128594; nTalk_CACHE_DATA={uid:dm_1000_ISME9754_64083379,tid:1495373211301600}; NTKF_T2D_CLIENTID=guest316D3E3C-7453-1356-A357-2B3066A6FD8A; cn_7415364c9dab5n09ff68_dplus=%7B%22distinct_id%22%3A%20%2215c268c88a32a-09f0310cb4e2cc-1d3e6850-13c680-15c268c88a4a56%22%2C%22initial_view_time%22%3A%20%221495294884%22%2C%22initial_referrer%22%3A%20%22https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DbyhbtkEjk8T-nOafUSEQ-MeunyZh_jI_1Z9VQlNhXDu%26wd%3D%26eqid%3Dba01664200097b350000000359206580%22%2C%22initial_referrer_domain%22%3A%20%22www.baidu.com%22%2C%22%24recent_outside_referrer%22%3A%20%22%24direct%22%2C%22%24_sessionid%22%3A%200%2C%22%24_sessionTime%22%3A%201495373436%2C%22%24dp%22%3A%200%2C%22%24_sessionPVTime%22%3A%201495373436%2C%22%24uid%22%3A%200%2C%22%24ph%22%3A%20%2215578072745%22%2C%22%24at%22%3A%20%22%E7%9B%B4%E6%8E%A5%E6%B3%A8%E5%86%8C%22%2C%22%24usc%22%3A%20%22msite%22%7D; UM_distinctid=15c268c88a32a-09f0310cb4e2cc-1d3e6850-13c680-15c268c88a4a56
+Host:trade.damai.cn
+Referer:http://m.damai.cn/buynow.aspx?bt=2&id=116423&pid=0&s=7&_m=ee400c81b4eccf9e647c9382dc567956
+Upgrade-Insecure-Requests:1
+User-Agent:Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36
+Query String Parameters
+view source
+view URL encoded
+
+bef:
+c:2|11626579^5^8924716   2|data-id^数量^data-pid
+cid:852   城市Id
+oid:
+p:116423  项目Id
+ref:
+tid:14a15a0578fb032284468584c8b88d8f4b51d8bb9803ac0acaba60ac981d7de838ca02e724df5cca04a7c1413387175b
+sign:8f6a8532a8395f3528e42c5f3c099945
