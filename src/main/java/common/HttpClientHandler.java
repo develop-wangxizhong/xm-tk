@@ -54,7 +54,7 @@ public class HttpClientHandler {
     private static CloseableHttpClient getHttpClient() {
         initHttpClientConnectionPool();
         if (client == null) {//single
-            SSLContext sslcontext = SSL.createIgnoreVerifySSL();
+          /*  SSLContext sslcontext = SSL.createIgnoreVerifySSL();
 
             // 设置协议http和https对应的处理socket链接工厂的对象
             Registry<ConnectionSocketFactory> socketFactoryRegistry = RegistryBuilder.<ConnectionSocketFactory>create()
@@ -65,7 +65,8 @@ public class HttpClientHandler {
             HttpClients.custom().setConnectionManager(connManager);
 
             //创建自定义的httpclient对象
-            client = HttpClients.custom().setConnectionManager(connManager).build();
+            client = HttpClients.custom().setConnectionManager(connManager).build();*/
+            client = HttpClients.custom().setConnectionManager(cm).build();
             return client;
         }
         return client;
@@ -80,7 +81,7 @@ public class HttpClientHandler {
         return getResult(httpGet);
     }
 
-    public static Map httpGetRequest(String url, Map<String, Object> params) throws URISyntaxException, IOException {
+    public static Map httpGetRequest(String url, Map<String, Object> params) throws IOException, URISyntaxException {
         URIBuilder uriBuilder = new URIBuilder();
         uriBuilder.setPath(url);
 
