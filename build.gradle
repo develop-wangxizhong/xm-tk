@@ -11,6 +11,10 @@ repositories {
 
 dependencies {
     compile('org.apache.httpcomponents:httpclient:4.5.2')
+// https://mvnrepository.com/artifact/chrriis/dj-nativeswing
+    compile group: 'chrriis', name: 'dj-nativeswing', version: '1.0.2.20120308'
+
+
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
