@@ -31,7 +31,7 @@ view source
 view URL encoded
 
 bef:
-c:2|11626579^5^8924716   2|data-id^数量^data-pid
+c:2|11626579^5^8924716   2|项目时间Id^数量^具体的价位Id
 cid:852   城市Id
 oid:
 p:116423  项目Id
