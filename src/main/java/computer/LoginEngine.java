@@ -1,4 +1,4 @@
-package ticket;
+package computer;
 
 import common.HttpClientHandler;
 import common.TimeUtil;
@@ -12,7 +12,7 @@ import java.util.Map;
 /**
  * Created by wangxizhong on 17/5/21.
  */
-public class LoginEngine extends BaseTicketParam {
+public class LoginEngine {
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException, KeyManagementException {
         System.out.println(TimeUtil.currentTimestamp().getTime());
 
