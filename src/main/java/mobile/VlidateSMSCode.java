@@ -2,6 +2,7 @@ package mobile;
 
 import common.BaseTicketHeader;
 import common.HttpClientHandler;
+import common.StringPool;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -12,11 +13,11 @@ import java.util.Map;
  */
 public class VlidateSMSCode extends BaseTicketHeader {
 
-    public void validateSMSCode(Map fetchUserInfoResponse,String inputCode) throws IOException {
+    public void validateSMSCode(Map fetchUserInfoResponse, String inputCode) throws IOException {
         //假设分支2  就需要对短信进行验证  还是取用户信息中的字段  server端验证
         Map codeValiateMap = new HashMap<String, String>() {{
-            put("_m", Main.fetch_m(fetchUserInfoResponse.get("entity").toString()));
-            put("uid", Main.fetch_uid(fetchUserInfoResponse.get("entity").toString()));
+            put("_m", StringPool.fetch_m(fetchUserInfoResponse.get("entity").toString()));
+            put("uid", StringPool.fetch_uid(fetchUserInfoResponse.get("entity").toString()));
             put("_action", "MobileLoginVcode");
             put("vcode", inputCode);
         }};

@@ -32,5 +32,9 @@ public class LoginWebEngine extends BaseTicketHeader {
             responseFetchUserInfo = fetchUserInfo.fetchUserInfo();//再次拉取用户信息
         }
 
+
+        CommitNewOrder commitNewOrder = new CommitNewOrder();
+        commitNewOrder.commitNewOrder();
+
     }
 }
